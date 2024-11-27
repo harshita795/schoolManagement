@@ -25,7 +25,26 @@ This project is a simple School Management System built with Node.js and MySQL.
     ?latitude=13.0827&longitude=80.2707
     ```
 
-## Setup
+## Setup  
 
 1. Clone the repository:
-   ```
+- git clone https://github.com/harshita795/schoolManagement.git
+
+
+2. Install dependencies:
+- cd schoolManagement
+- npm install
+
+
+3. Create a `.env` file in the root directory and add your MySQL database credentials:
+- host=your_host
+- user=your_user
+- password=your_password
+- database=your_database
+
+
+4. Start the server:
+- npm start
+
+
+
