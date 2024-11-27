@@ -5,7 +5,7 @@ const port = 3000;
 require("dotenv").config();
 
 // MySQL database connection
-const db = mysql.createConnection({
+const db = mysql.createPool({
   host: process.env.host,
   user: process.env.user,
   password: process.env.password,
@@ -14,14 +14,6 @@ const db = mysql.createConnection({
   connectionLimit: 10,
   queueLimit: 0,
   connectTimeout: 10000,
-});
-
-db.connect((err) => {
-  if (err) {
-    console.error("Database connection failed:", err.message);
-    return;
-  }
-  console.log("Connected to the MySQL database!");
 });
 
 app.use(express.json());
