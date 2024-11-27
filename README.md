@@ -17,6 +17,11 @@ This project is a simple School Management System built with Node.js and MySQL.
       "longitude": 80.2707
     }
     ```
+![image](https://github.com/user-attachments/assets/cb644c34-eddd-41c4-acfc-c59503348480)
+
+
+
+    
 
 - **GET**: [List Schools](http://localhost:3000/listSchools?latitude=13.0827&longitude=80.2707)
   - Lists all schools sorted by proximity to the provided latitude and longitude.
@@ -24,7 +29,7 @@ This project is a simple School Management System built with Node.js and MySQL.
     ```
     ?latitude=13.0827&longitude=80.2707
     ```
-
+![image](https://github.com/user-attachments/assets/33b0ed9f-0ec3-4d8c-a535-bb6e54cb9ecf)
 ## Setup  
 
 1. Clone the repository:
